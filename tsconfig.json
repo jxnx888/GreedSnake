@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    // target 用来指定ts被编译为的ES版本
+    // '--target' option must be: 'es3', 'es5', 'es6', 'es2015', 'es2016', 'es2017', 'es2018', 'es2019', 'es2020', 'es2021', 'esnext'.
+    "target": "ES6",
+    // 指定要使用的模块化的规范
+    // '--module' option must be: 'none', 'commonjs', 'amd', 'system', 'umd', 'es6', 'es2015', 'es2020', 'esnext'.
+    "module": "ES6",
+    // library 用来指定项目中要使用的库
+    "outDir": "./dist",
+    // 严格模式
+    "strict": true,
+    // 禁止有错误的时候打包
+//    "noEmitOnError": true
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
